@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BASKETBALL</title>
+        <link rel="stylesheet" href="scorecard.css">
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="col1">
+                <h1 id="title">HOME</h1>
+                <h1 id="homeScore">2</h1>
+                <div>
+                    <button class="btn" onclick="add('home', 1)">+1</button>
+                    <button class="btn" onclick="add('home', 2)">+2</button>
+                    <button class="btn" onclick="add('home', 3)">+3</button>
+                </div>
+            </div>
+            <div class="col2">
+                <h1 id="title">GUEST</h1>
+                <h1 id="guestScore">3</h1>
+                <div>
+                    <button class="btn" onclick="add('guest', 1)">+1</button>
+                    <button class="btn" onclick="add('guest', 2)">+2</button>
+                    <button class="btn" onclick="add('guest', 3)">+3</button>
+                </div>
+            </div>
+            <div class="wrapper">
+                <button id="reset" onclick="resetScore()">RESET</button>
+            </div>
+        </div>
+
+        <script src="scorecard.js"></script>
+    </body>
+</html>
