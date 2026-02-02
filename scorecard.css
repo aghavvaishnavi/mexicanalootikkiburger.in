@@ -12,9 +12,17 @@ body {
 }
 #yes {
     background-color: greenyellow;
+    transition: 0.3s ease;
+}
+#yes:hover {
+    transform: scale(1.05);
 }
 #no {
     background-color: red;
+    transition: 0.3s ease;
+}
+#no:hover {
+    transform: 0.3s ease;
 }
 #yes, #no {
     padding: 10px;
