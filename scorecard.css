@@ -16,7 +16,7 @@ body {
 #no {
     background-color: red;
 }
-button {
+#yes, #no {
     padding: 7px;
     font-family: 'Courier New', Courier, monospace;
 }
